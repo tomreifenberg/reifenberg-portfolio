@@ -10,10 +10,10 @@ import { Project } from './project.model'
 export class ProjectsComponent implements OnInit {
 
   projects: Project[] = [
-    new Project('NASA - Picture of the Day', 'This is a Test', 'https://get.pxhere.com/photo/natural-foods-food-superfood-Food-group-vegetable-plant-dish-produce-cuisine-fruit-ingredient-legume-vegetarian-food-vegan-nutrition-recipe-1556245.jpg','https://tomreifenberg.github.io/vanilla-apod/'),
-    new Project('Abstract Art Canvas', 'This is a Test', 'https://get.pxhere.com/photo/natural-foods-food-superfood-Food-group-vegetable-plant-dish-produce-cuisine-fruit-ingredient-legume-vegetarian-food-vegan-nutrition-recipe-1556245.jpg','https://tomreifenberg.github.io/draw/program.html'),
-    new Project('Meteor Dodge!', 'This is a Test', 'https://get.pxhere.com/photo/natural-foods-food-superfood-Food-group-vegetable-plant-dish-produce-cuisine-fruit-ingredient-legume-vegetarian-food-vegan-nutrition-recipe-1556245.jpg','https://tomreifenberg.github.io/draw/program.html'),
-    new Project('Image Carousel', 'This is a Test', 'https://get.pxhere.com/photo/natural-foods-food-superfood-Food-group-vegetable-plant-dish-produce-cuisine-fruit-ingredient-legume-vegetarian-food-vegan-nutrition-recipe-1556245.jpg','https://tomreifenberg.github.io/draw/program.html'),
+    new Project('NASA - Daily Picture', 'This is a Test', 'https://www.jpl.nasa.gov/spaceimages/images/largesize/PIA18905_hires.jpg','https://tomreifenberg.github.io/vanilla-apod/'),
+    new Project('Abstract Art Canvas', 'This is a Test', 'https://cdn.pixabay.com/photo/2015/01/31/05/05/background-618226_960_720.png','https://tomreifenberg.github.io/draw/program.html'),
+    new Project('Meteor Dodge!', 'This is a Test', 'https://www.universetoday.com/wp-content/uploads/2011/11/Leonids-NASA.jpg','https://tomreifenberg.github.io/draw/program.html'),
+    new Project('Image Carousel', 'This is a Test', 'https://i.imgur.com/toD7trX.jpg','https://tomreifenberg.github.io/draw/program.html'),
   
 
   ];

@@ -10,8 +10,11 @@ import { Project } from './project.model'
 export class ProjectsComponent implements OnInit {
 
   projects: Project[] = [
-    new Project('A Test Project', 'This is a Test', 'https://get.pxhere.com/photo/natural-foods-food-superfood-Food-group-vegetable-plant-dish-produce-cuisine-fruit-ingredient-legume-vegetarian-food-vegan-nutrition-recipe-1556245.jpg','https://tomreifenberg.github.io/vanilla-apod/'),
-    new Project('A New Project', 'This is a Test', 'https://get.pxhere.com/photo/natural-foods-food-superfood-Food-group-vegetable-plant-dish-produce-cuisine-fruit-ingredient-legume-vegetarian-food-vegan-nutrition-recipe-1556245.jpg','')
+    new Project('NASA - Picture of the Day', 'This is a Test', 'https://get.pxhere.com/photo/natural-foods-food-superfood-Food-group-vegetable-plant-dish-produce-cuisine-fruit-ingredient-legume-vegetarian-food-vegan-nutrition-recipe-1556245.jpg','https://tomreifenberg.github.io/vanilla-apod/'),
+    new Project('Abstract Art Canvas', 'This is a Test', 'https://get.pxhere.com/photo/natural-foods-food-superfood-Food-group-vegetable-plant-dish-produce-cuisine-fruit-ingredient-legume-vegetarian-food-vegan-nutrition-recipe-1556245.jpg','https://tomreifenberg.github.io/draw/program.html'),
+    new Project('Meteor Dodge!', 'This is a Test', 'https://get.pxhere.com/photo/natural-foods-food-superfood-Food-group-vegetable-plant-dish-produce-cuisine-fruit-ingredient-legume-vegetarian-food-vegan-nutrition-recipe-1556245.jpg','https://tomreifenberg.github.io/draw/program.html'),
+    new Project('Image Carousel', 'This is a Test', 'https://get.pxhere.com/photo/natural-foods-food-superfood-Food-group-vegetable-plant-dish-produce-cuisine-fruit-ingredient-legume-vegetarian-food-vegan-nutrition-recipe-1556245.jpg','https://tomreifenberg.github.io/draw/program.html'),
+  
 
   ];
 

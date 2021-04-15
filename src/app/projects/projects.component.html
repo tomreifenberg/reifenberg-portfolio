@@ -1,17 +1,17 @@
-<div class="text-left mt-10 mb-5 ml-5 mr-5">
+<div class="grid place-items-center  mt-10 mb-5 ml-5 mr-5">
     <p
-    class="text-center mt-20 mb-5 text-xl leading-8 font-bold tracking-tight text-gray-800 sm:text-4xl"
+    class="text-center mb-5 text-xl leading-8 font-bold tracking-tight text-gray-800 sm:text-4xl"
     >
     Projects 
   </p>
 
-    <div class="">
-        <span class="list-group-item clearfix" *ngFor="let project of projects">
+
+        <!-- <span class="" *ngFor="let project of projects">
 
             <div class="max-w-md w-full lg:flex mt-5">
                 <img [src]="project.imagePath" [alt]="project.name"
                     class="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden"
-                    style="background-image">
+                    style="background-image: none">
         
                 <div
                     class="border-r border-b border-l border-grey-light lg:border-l-0 lg:border-t lg:border-grey-light bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
@@ -21,7 +21,7 @@
                     </div>
                     <div class="flex items-left">
                         <div class="mb-3 bg-white border-gray-200 text-right">
-                            <!-- button link -->
+            
                             <a class="bg-blue-500 shadow-md text-sm text-white font-bold py-3 md:px-8 px-4 hover:bg-blue-400 rounded uppercase" 
                                 [href]="project.projectLink">View Project</a>
                         </div>
@@ -29,6 +29,68 @@
                     </div>
                 </div>
             </div>
+        </span> -->
+
+        <span class="" *ngFor="let project of projects">
+
+
+            <div class="justify-center max-w-lg rounded overflow-hidden shadow-lg my-2 mt-5">
+                <img class="w-full" [src]="project.imagePath" [alt]="project.name">
+                <div class="px-6 py-4">
+                <div class="font-bold text-xl mb-2" [innerText]="project.name"></div>
+                <p class="text-grey-darker text-base" [innerText]="project.description"></p>
+                </div>
+                <div class="flex items-left">
+                    <div class=" p-5 mb-3 bg-white border-gray-200 text-right">
+                        <a class="bg-gray-800 shadow-md text-sm text-white font-bold py-3 md:px-8 px-4 hover:bg-red-500 rounded uppercase" 
+                            [href]="project.projectLink"
+                            target="_blank">
+                            View Project
+                        </a>
+                    </div>
+    
+                </div>
+            </div>
         </span>
+    
+
+  <!-- <span class="" *ngFor="let project of projects">
+    <div class="grid place-items-center ">
+        <section class="flex flex-col md:flex-row gap-11 py-10 px-5 bg-white rounded-md shadow-lg w-3/4 md:max-w-2xl">
+          <div class="text-indigo-500 flex flex-col justify-between">
+            <img [src]="project.imagePath" [alt]="project.name" />
+          </div>
+          <div class="text-red-500">
+            <h3 class="uppercase text-black text-2xl font-medium" [innerText]="project.name"></h3>
+            <small class="uppercase">tech stack</small>
+            <h3 class="text-2xl font-semibold mb-7">$150</h3>
+            <small class="text-black">The Nike Epic React Flyknit 1 provides crazy comfort that lasts as long as you can run. Its Nike React foam cushioning is responsive yet lightweight, durable yet soft. This attraction of opposites creates a sensation that not only enhances the feeling of moving forwards, but makes running feel fun, too.</small>
+            <div class="flex gap-0.5 mt-4">
+              <button id="addToCartButton" class="bg-indigo-600 hover:bg-indigo-500 focus:outline-none transition text-white uppercase px-8 py-3">add to cart</button>
+              <button id="likeButton" class="bg-indigo-600 hover:bg-indigo-500 focus:outline-none transition text-white uppercase p-3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-suit-heart-fill" viewBox="0 0 16 16">
+        <path d="M4 1c2.21 0 4 1.755 4 3.92C8 2.755 9.79 1 12 1s4 1.755 4 3.92c0 3.263-3.234 4.414-7.608 9.608a.513.513 0 0 1-.784 0C3.234 9.334 0 8.183 0 4.92 0 2.755 1.79 1 4 1z"/>
+      </svg>
+              </button>
+            </div>
+          </div>
+        </section>
+      </div>
+  
+</span> -->
+
+
+<!-- component -->
+<!-- <div class="max-w-md w-full lg:flex mt-5">
+    <div class="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden" style="background-image: url('https://tailwindcss.com/img/card-left.jpg')" title="Woman holding a mug">
     </div>
+    <div class="border-r border-b border-l border-grey-light lg:border-l-0 lg:border-t lg:border-grey-light bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
+      <div class="mb-8">
+        <div class="text-black font-bold text-xl mb-2">Can coffee make you a better developer?</div>
+        <p class="text-grey-darker text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
+      </div>
+    </div>
+  </div> -->
+
+
 </div>

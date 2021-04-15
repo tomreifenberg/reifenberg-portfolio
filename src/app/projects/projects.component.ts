@@ -18,7 +18,7 @@ export class ProjectsComponent implements OnInit {
       ),
     new Project(
       'Meteor Dodge!', 
-      'Navigate your heroic square to safety in a meteor downpour', 
+      'Dodge your way to safety in a meteor downpour', 
       'https://www.universetoday.com/wp-content/uploads/2011/11/Leonids-NASA.jpg',
       'https://tomreifenberg.github.io/game/'
       ),

@@ -1,4 +1,6 @@
-# ReifenbergPortfolio
+# Reifenberg Portfolio
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6cc9032c-c152-40b5-accc-7fc46b8db045/deploy-status)](https://app.netlify.com/sites/pensive-blackwell-043824/deploys)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.4.
 

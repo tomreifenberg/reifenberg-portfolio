@@ -13,8 +13,14 @@ export class ProjectsComponent implements OnInit {
     new Project(
       'Riparian - UX Case Study',
       'A deep dive into the design process of Riparian, an app built for safe days on the water.',
-      'https://i.imgur.com/BKahws4.jpeg',
+      'https://i.imgur.com/rRWHlzi.jpg',
       'https://www.figma.com/proto/HgBlvASPwFnB3NLQ7c7L1s/6.4-Case-Study-(Essentials)---Riparian?page-id=2%3A55&node-id=404-3804&viewport=861%2C436%2C0.15&scaling=scale-down'
+    ),
+    new Project(
+      'Housekey - UI Case Study',
+      'Exploring the design of property research',
+      'https://i.imgur.com/UUAa8t9.jpg',
+      'https://www.figma.com/proto/LTrJLNGjhVbtLoS32nIZmY/Case-Study---Housekey?page-id=648%3A609&type=design&node-id=648-611&viewport=470%2C-2423%2C0.12&scaling=contain&mode=design&t=vL8fWuSxwRnJhShx-1'
     ),
     new Project(
       'NASA - Daily Picture',
@@ -27,12 +33,6 @@ export class ProjectsComponent implements OnInit {
       'Cycle through images of my good friends, Lenny and Glen',
       'https://i.imgur.com/toD7trX.jpg',
       'https://tomreifenberg.github.io/carousel/'
-      ),
-    new Project(
-      'Abstract Art Canvas',
-      'Paint bizarre and wonderful art within your browser',
-      'http://www.mepixels.com/cache/af1d45ba/abstract-geometric-background-1140x1140-S5ToJTPV4.jpeg',
-      'https://tomreifenberg.github.io/draw/program.html'
       ),
 
   ];
